@@ -326,6 +326,7 @@ color: #6B6B6B;
 * ! USER SECTION CSS END
 **/
 
+/* MEDIA QUERIES */
 
 
 @media (max-width:1250px ){
@@ -382,6 +383,9 @@ color: #6B6B6B;
 }
 
 
+
+
+
 @media (max-width:700px ){
   .main-user{
     width: 100%;
@@ -397,6 +401,15 @@ color: #6B6B6B;
 }
 .user-appointment div{
   width: 50%;
+  justify-content:center;
+  align-items: center;
+  margin-top: 20px;
+  }
+}
+@media (max-width:450px ){
+
+.user-appointment div{
+  width: 100%;
   justify-content:center;
   align-items: center;
   margin-top: 20px;
