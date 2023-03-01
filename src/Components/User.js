@@ -7,7 +7,13 @@ import UserInfo from "./UserInfo";
 const User = () => {
   return (
     <article className="user-section">
+
+    //USER PROFILE SECTION
+
       <section className="main-user">
+
+//USER INFO PROFILE
+
         <div className="user-data">
           <img src={Userimg} alt="" />
           <h1>Diane Cooper</h1>
@@ -22,6 +28,9 @@ const User = () => {
           </div>
           <button type="button">Send Message</button>
         </div>
+
+//USER  RESULT PDF SECTION
+
         <div className="user-results">
           <h3>Files / Documents</h3>
           <ul>
@@ -44,6 +53,10 @@ const User = () => {
           </ul>
         </div>
       </section>
+
+//USER APPOINTMENT SECTION 
+
+
       <section className="user-info">
         <div className="user-details">
           <UserInfo title={'Gender'} detail={'Female'} />
