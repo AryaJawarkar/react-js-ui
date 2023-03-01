@@ -194,6 +194,7 @@ padding: 20px 15px;
 
 .user-info{
   width:68% ;
+  margin-top: 30px;
 }
 
 
@@ -393,7 +394,12 @@ color: #6B6B6B;
     margin-top: 30px;
   justify-content: space-between;
   }
- 
+  .user-appointment-header{
+  flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+  }
 .user-details{
   text-align: center;
  grid-template-columns: repeat(1,1fr);
@@ -406,8 +412,13 @@ color: #6B6B6B;
   margin-top: 20px;
   }
 }
-@media (max-width:450px ){
-
+@media (max-width:500px ){
+  .user-appointment{
+    width:130px
+  }
+  .user-appointment span{
+  font-size: 16px;
+  }
 .user-appointment div{
   width: 100%;
   justify-content:center;
